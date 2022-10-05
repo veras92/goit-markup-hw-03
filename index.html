@@ -22,14 +22,16 @@
       <header class="header-class">
         <a href="" class="logo">Web<span class="logo-change">Studio</span></a>
         <nav>
-          <ul class="ul-class">
-            <li><a href="" class="studio">Студія</a></li>
-            <li><a href="portfolio.html" class="nav-list">Портфоліо</a></li>
+          <ul class="ul-class header-ul header-ul-nav">
+            <li class="nav-li"><a href="" class="studio">Студія</a></li>
+            <li class="nav-li">
+              <a href="portfolio.html" class="nav-list">Портфоліо</a>
+            </li>
             <li><a href="" class="nav-list">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="ul-class">
-          <li>
+        <ul class="ul-class header-ul header-ul-contact">
+          <li class="header-contact-li">
             <a href="mailto:info@devstudio.com" class="mail contact-info-head"
               >info@devstudio.com</a
             >
@@ -43,43 +45,53 @@
       </header>
       <main>
         <section class="main-section">
-          <h1 class="main-section">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+          <h1 class="main-section-header">
+            ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
+          </h1>
           <button type="button" class="order-button">Замовити послугу</button>
         </section>
-        <ul class="ul-class">
-          <li>
-            <h3 class="team-name smaller-font">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="light-grey-text font-size-change">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції
-            </p>
-          </li>
-          <li>
-            <h3 class="team-name smaller-font">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="light-grey-text font-size-change">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе
-            </p>
-          </li>
-          <li>
-            <h3 class="team-name smaller-font">ПЛАНУВАННЯ</h3>
-            <p class="light-grey-text font-size-change">
-              Так само консультація з широким активом значною мірою зумовлює
-            </p>
-          </li>
-          <li>
-            <h3 class="team-name smaller-font">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="light-grey-text font-size-change">
-              Значимість цих проблем настілки очевидна, що реалізація планових
-              завдань
-            </p>
-          </li>
-        </ul>
-        <section class="what-we-do">
-          <h2 class="smaller-headings">Чим ми займаємося</h2>
-          <ul class="ul-class">
-            <li><img src="images/img.jpg" alt="A man coding" width="370" /></li>
+        <section class="section table-section">
+          <ul class="ul-class table-ul">
+            <li class="table-li">
+              <h3 class="team-name smaller-font table-head">
+                УВАГА ДО ДЕТАЛЕЙ
+              </h3>
+              <p class="light-grey-text font-size-change">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції
+              </p>
+            </li>
+            <li class="table-li">
+              <h3 class="team-name smaller-font table-head">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="light-grey-text font-size-change">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе
+              </p>
+            </li>
+            <li class="table-li">
+              <h3 class="team-name smaller-font table-head">ПЛАНУВАННЯ</h3>
+              <p class="light-grey-text font-size-change">
+                Так само консультація з широким активом значною мірою зумовлює
+              </p>
+            </li>
             <li>
+              <h3 class="team-name smaller-font table-head">
+                СУЧАСНІ ТЕХНОЛОГІЇ
+              </h3>
+              <p class="light-grey-text font-size-change">
+                Значимість цих проблем настілки очевидна, що реалізація планових
+                завдань
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="what-we-do section">
+          <h2 class="smaller-headings">Чим ми займаємося</h2>
+          <ul class="ul-class image-li">
+            <li class="image-row-li">
+              <img src="images/img.jpg" alt="A man coding" width="370" />
+            </li>
+            <li class="image-row-li">
               <img src="images/img-2.jpg" alt="A woman coding" width="370" />
             </li>
             <li>
@@ -91,9 +103,9 @@
             </li>
           </ul>
         </section>
-        <section class="team-section">
+        <section class="team-section section">
           <h2 class="smaller-headings">Наша команда</h2>
-          <ul class="ul-class">
+          <ul class="ul-class team-ul-all">
             <li class="team-ul">
               <img src="images/img-4-2.jpg" alt="Photo of Ihor" width="270" />
               <h3 class="team-name">Ігор Дем'яненко</h3>
@@ -128,11 +140,13 @@
         </section>
       </main>
       <footer class="footer-class">
-        <a href="" class="logo">Web<span class="footer-logo">Studio</span></a>
+        <a href="" class="logo logo-footer"
+          >Web<span class="footer-logo">Studio</span></a
+        >
         <address class="adress-class">
           <p class="adress-info">м.Київ, пр-т Лесі Українки 26</p>
           <ul class="ul-class contact-info">
-            <li>
+            <li class="mail-footer-li">
               <a href="mailto:info@devstudio.com" class="mail"
                 >info@devstudio.com</a
               >
