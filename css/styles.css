@@ -202,6 +202,18 @@ body {
 .mail-footer-li {
   margin-bottom: 9px;
 }
+.mail:hover,
+.tel-number:hover,
+.mail:focus,
+.tel-number:focus {
+  color: var(--blueColor);
+}
+.mail .tel-number {
+  color: var(--smallTextColor);
+}
+.footer-logo {
+  color: white;
+}
 .light-grey-text {
   color: var(--smallTextColor);
 }
@@ -212,6 +224,10 @@ body {
 .font-size-change {
   font-size: 14px;
   line-height: 1.7;
+}
+
+.studio {
+  color: var(--blueColor);
 }
 .nav-button-all:hover,
 .nav-button-all:focus,
@@ -233,22 +249,7 @@ nav a:active,
 nav a:focus {
   color: var(--blueColor);
 }
-.mail:hover,
-.tel-number:hover,
-.mail:focus,
-.tel-number:focus {
-  color: var(--blueColor);
-}
-.studio {
-  color: var(--blueColor);
-}
-.mail .tel-number {
-  color: var(--smallTextColor);
-}
 
-.footer-logo {
-  color: white;
-}
 .nav-buttons {
   display: flex;
   flex-direction: row;
