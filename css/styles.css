@@ -1,0 +1,195 @@
+:root {
+  --greyColor: #2f303a;
+  --blueColor: #2196f3;
+  --mainTextColor: #212121;
+  --smallTextColor: #757575;
+  --lightGreyBackground: #f5f4fa;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--mainTextColor);
+}
+.container {
+  width: 1200px;
+}
+.header-class {
+  background-color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid #ececec;
+}
+.nav-list {
+  color: var(--mainTextColor);
+}
+.ul-class a {
+  text-decoration: none;
+}
+.contact-info a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-info-head {
+  color: var(--smallTextColor);
+}
+.footer-class {
+  background-color: var(--greyColor);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+.ul-class {
+  list-style-type: none;
+}
+.smaller-headings {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.smaller-font {
+  font-size: 14px;
+}
+.project-class {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.adress-info {
+  color: white;
+}
+.adress-class {
+  font-style: normal;
+}
+.light-grey-text {
+  color: var(--smallTextColor);
+}
+
+.logo-change {
+  color: black;
+}
+.font-size-change {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.nav-button-all:hover,
+.nav-button-all:focus,
+.nav-button-site:hover,
+.nav-button-site:focus,
+.nav-putton-app:hover,
+.nav-putton-app:focus,
+.nav-button-design:hover,
+.nav-button-design:focus,
+.nav-button-marketing:hover,
+.nav-button-marketing:focus {
+  background-color: var(--blueColor);
+  color: white;
+  cursor: pointer;
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+  color: var(--blueColor);
+}
+.mail:hover,
+.tel-number:hover,
+.mail:focus,
+.tel-number:focus {
+  color: var(--blueColor);
+}
+.studio {
+  color: var(--blueColor);
+}
+.mail .tel-number {
+  color: var(--smallTextColor);
+}
+.logo {
+  color: var(--blueColor);
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.footer-logo {
+  color: white;
+}
+.main-section {
+  background-color: var(--greyColor);
+  color: white;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.order-button {
+  background-color: var(--blueColor);
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+  padding-bottom: 200px;
+}
+.team-section {
+  background-color: var(--lightGreyBackground);
+}
+.team-ul {
+  background-color: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.what-team-does {
+  line-height: 1.2;
+}
+.nav-buttons button {
+  background-color: var(--lightGreyBackground);
+  border-radius: 4px;
+  color: var(--mainTextColor);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+}
+.nav-button-all {
+  width: 73px;
+}
+.nav-button-site {
+  width: 125px;
+}
+.nav-putton-app {
+  width: 112px;
+}
+.nav-button-design {
+  width: 103px;
+}
+.projects-ul {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.project-desc {
+  line-height: 1.9;
+}
