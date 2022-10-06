@@ -7,7 +7,10 @@
     <title>Document</title>
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,7 +39,7 @@
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="header-contact-li">
             <a href="tel:+380961111111" class="tel-number contact-info-head"
               >+38 096 111 11 11</a
             >
@@ -45,8 +48,8 @@
       </div>
     </header>
     <main>
-      <div class="container">
-        <section class="section">
+      <section class="section">
+        <div class="container">
           <ul class="nav-buttons ul-class">
             <li class="nav-button-li">
               <button type="button" class="nav-button-all portfolio-buttons">
@@ -85,8 +88,10 @@
                 alt="Picture of a laptop"
                 width="370"
               />
-              <h2 class="project-class">Технокряк</h2>
-              <p class="light-grey-text project-desc">Веб-сайт</p>
+              <div class="project-div">
+                <h2 class="project-class">Технокряк</h2>
+                <p class="light-grey-text project-desc">Веб-сайт</p>
+              </div>
             </li>
             <li class="projects-ul projects-catalogue project-margin-bot">
               <img
@@ -94,8 +99,10 @@
                 alt="Picture of basketball players"
                 width="370"
               />
-              <h2 class="project-class">Постер New Orlean vs Golden Star</h2>
-              <p class="light-grey-text project-desc">Дизайн</p>
+              <div class="project-div">
+                <h2 class="project-class">Постер New Orlean vs Golden Star</h2>
+                <p class="light-grey-text project-desc">Дизайн</p>
+              </div>
             </li>
             <li class="projects-ul project-margin-bot">
               <img
@@ -103,19 +110,21 @@
                 alt="Logo of a restaurant"
                 width="370"
               />
-              <h2 class="project-class">Ресторан Seafood</h2>
-              <p class="light-grey-text project-desc">Додаток</p>
+              <div class="project-div">
+                <h2 class="project-class">Ресторан Seafood</h2>
+                <p class="light-grey-text project-desc">Додаток</p>
+              </div>
             </li>
-          </ul>
-          <ul class="ul-class catalogue">
             <li class="projects-ul projects-catalogue project-margin-bot">
               <img
                 src="images/img-7-3.jpg"
                 alt="Picture of headphones"
                 width="370"
               />
-              <h2 class="project-class">Проєкт Prime</h2>
-              <p class="light-grey-text project-desc">Маркетинг</p>
+              <div class="project-div">
+                <h2 class="project-class">Проєкт Prime</h2>
+                <p class="light-grey-text project-desc">Маркетинг</p>
+              </div>
             </li>
             <li class="projects-ul projects-catalogue project-margin-bot">
               <img
@@ -123,8 +132,10 @@
                 alt="Image of some boxes"
                 width="370"
               />
-              <h2 class="project-class">Проєкт Boxes</h2>
-              <p class="light-grey-text project-desc">Додаток</p>
+              <div class="project-div">
+                <h2 class="project-class">Проєкт Boxes</h2>
+                <p class="light-grey-text project-desc">Додаток</p>
+              </div>
             </li>
             <li class="projects-ul project-margin-bot">
               <img
@@ -132,21 +143,23 @@
                 alt="Picture of a desktop computer"
                 width="370"
               />
-              <h2 lang="en" class="project-class">
-                Inspiration has no Borders
-              </h2>
-              <p class="light-grey-text project-desc">Веб-сайт</p>
+              <div class="project-div">
+                <h2 lang="en" class="project-class">
+                  Inspiration has no Borders
+                </h2>
+                <p class="light-grey-text project-desc">Веб-сайт</p>
+              </div>
             </li>
-          </ul>
-          <ul class="ul-class catalogue">
             <li class="projects-ul projects-catalogue">
               <img
                 src="images/img-10.jpg"
                 alt="Picture of a magazine"
                 width="370"
               />
-              <h2 class="project-class">Видання Limited Edition</h2>
-              <p class="light-grey-text project-desc">Дизайн</p>
+              <div class="project-div">
+                <h2 class="project-class">Видання Limited Edition</h2>
+                <p class="light-grey-text project-desc">Дизайн</p>
+              </div>
             </li>
             <li class="projects-ul projects-catalogue">
               <img
@@ -154,8 +167,10 @@
                 alt="Picture of a label"
                 width="370"
               />
-              <h2 class="project-class">Проєкт Lab</h2>
-              <p class="light-grey-text project-desc">Маркетинг</p>
+              <div class="project-div">
+                <h2 class="project-class">Проєкт Lab</h2>
+                <p class="light-grey-text project-desc">Маркетинг</p>
+              </div>
             </li>
             <li class="projects-ul">
               <img
@@ -163,12 +178,14 @@
                 alt="Picture of a man typing on a laptop"
                 width="370"
               />
-              <h2 class="project-class">Growing Business</h2>
-              <p class="light-grey-text project-desc">Додаток</p>
+              <div class="project-div">
+                <h2 class="project-class">Growing Business</h2>
+                <p class="light-grey-text project-desc">Додаток</p>
+              </div>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <footer class="footer-class">
       <div class="container">
