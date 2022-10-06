@@ -303,3 +303,6 @@ nav a:focus {
   padding-top: 6px;
   padding-bottom: 6px;
 }
+.project-margin-bot {
+  margin-bottom: 30px;
+}
